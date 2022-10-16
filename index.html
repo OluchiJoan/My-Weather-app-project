@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather app</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/78c2ff716a.js"
+      crossorigin="anonymous"
+    ></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<link href="src/styles.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-5">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"/>
+              </div>
+              <div class="col-3">
+                <button
+                  class="btn btn-success w-100"
+                  id="current-location-button"
+                >
+                <i class="fa-solid fa-magnifying-glass-location"></i> Here
+                </button>
+          </div>
+        </form>
+            
+      <div class="row">
+         <div class="col-6">
+           <ul>
+       <li id="country"> Nigeria</li>
+         <li id = "real-time"></li> 
+         <li id="description"></li>
+
+    <li><span class="temperature" id="temperature">30</span
+      ><span class="units">
+        <a href="#" id="celsius-link">°C</a> 
+  </ul>
+         </div>
+         <div class="col-6">
+           <ul>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Wind: <span id="wind"></span> km/h</li>
+            <ul>
+         </div>
+      
+    </div>
+       <div class="row">
+        <div class="col-2">
+          SUN
+        </br>🌦️
+      </br>19°C
+            </div>
+    
+          <div class="col-2">
+        MON
+          </br>🌦️
+        </br>20°C
+          </div>
+          <div class="col-2">
+            TUE
+          </br>⛅
+        </br>23°C
+        </div>
+
+        <div class="col-2">
+            WED
+        </br>⛈️
+        </br>18°C
+        </div>
+
+        <div class="col-2">
+            THUR
+          </br>⛅
+        </br>25°C
+        </div>
+
+        <div class="col-2">
+            FRI
+          </br>🌤️
+        </br>26°C
+        </div>
+
+          </div>
+         </div>
+       <a href="https://github.com/OluchiJoan/My-Weather-App" target="blank">Open source code</a>
+       <span>by Oluchi Joan Ukaigwe👩‍💻</span>
+    <script src="src/index.js"></script>
+  </body>
+</html>
