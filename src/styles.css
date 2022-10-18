@@ -22,8 +22,14 @@ h2 {
   list-style: none;
 }
 
-#celsius-link {
+#celsius-link,
+#temperature,
+#country,
+#description,
+#humidity,
+#wind {
   text-decoration: none;
+  list-style: none;
 }
 .col-6 {
   background-color: aliceblue;
@@ -31,7 +37,6 @@ h2 {
   font-family: "Roboto", sans-serif;
   margin-top: 10px;
   transition: all 200ms ease-in-out;
-  list-style: none;
 }
 .col-6:hover {
   color: cornflowerblue;
