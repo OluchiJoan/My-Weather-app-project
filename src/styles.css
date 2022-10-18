@@ -16,14 +16,14 @@ h2 {
   font-weight: bolder;
 }
 
-#real-time {
+#real-time,
+#temperature {
   font-size: 15px;
   font-weight: bold;
   list-style: none;
 }
 
 #celsius-link,
-#temperature,
 #country,
 #description,
 #humidity,
