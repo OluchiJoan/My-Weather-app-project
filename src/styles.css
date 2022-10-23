@@ -1,11 +1,17 @@
-.container {
-  border: 4px solid #132743;
-  padding: 35px 15px;
-  max-width: 80%;
-  border-radius: 8px;
+.weather-app {
+  border: 1px solid #132743;
+  padding: 35px 25px;
+  max-width: 75%;
+  border-radius: 5px;
   margin-top: 50px;
-  margin-left: 60px;
+  margin-left: 32px;
   display: block;
+  box-shadow: #917644;
+  background: radial-gradient(
+    1093px at -13.5% -13.6%,
+    rgb(254, 192, 193) 6.2%,
+    rgb(0, 67, 105) 98.8%
+  );
 }
 h2 {
   color: #5a6275;
@@ -16,39 +22,45 @@ h2 {
   font-weight: bolder;
 }
 
-#real-time,
-#temperature {
-  font-size: 15px;
-  font-weight: bold;
+.weather-description {
+  font-size: 18px;
+  font-weight: light;
+  list-style: none;
+}
+.weather-condition {
   list-style: none;
 }
 
-#celsius-link,
-#country,
-#description,
-#humidity,
-#wind {
+#temperature {
+  font-size: 27px;
+}
+#country {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#celsius-link {
   text-decoration: none;
-  list-style: none;
 }
 .col-6 {
-  background-color: aliceblue;
   font-size: 22px;
   font-family: "Roboto", sans-serif;
   margin-top: 10px;
   transition: all 200ms ease-in-out;
 }
 .col-6:hover {
-  color: cornflowerblue;
+  color: rgb(207, 217, 235);
 }
 .col-2:hover {
-  color: cornflowerblue;
+  color: rgb(207, 217, 235);
 }
 .col-2 {
   border: 1px solid #132743;
-  border-radius: 8px;
+  border-radius: 7px;
   font-family: "PT Mono", monospace;
-  padding: 5px 3px;
-  margin-top: 17px;
+  padding: 1px 5px;
+  margin-top: 8px;
+  margin-bottom: auto;
   transition: all 200ms ease-in-out;
+  font-weight: bold;
 }
