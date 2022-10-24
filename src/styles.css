@@ -32,15 +32,25 @@ h2 {
 }
 
 #temperature {
-  font-size: 27px;
+  font-size: 45px;
+  position: relative;
+  top: 25px;
+  right: 35px;
 }
+
 #country {
   font-size: 25px;
   font-weight: bold;
 }
 
-#celsius-link {
+#celsius-link,
+#farenheit-link {
   text-decoration: none;
+}
+.units {
+  position: relative;
+  top: 25px;
+  right: 36px;
 }
 .col-6 {
   font-size: 22px;
@@ -69,4 +79,10 @@ h2 {
   top: -7px;
   left: 30px;
   font-size: 18px;
+}
+#icon {
+  position: relative;
+  top: 4px;
+  right: 23px;
+  font-size: 20px;
 }

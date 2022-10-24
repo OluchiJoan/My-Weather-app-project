@@ -25,6 +25,7 @@ let currentTime = document.querySelector("#real-time");
 currentTime.innerHTML = formattedDate();
 
 function showWeather(response) {
+  console.log(response.data.weather[0].icon);
   document.querySelector("#country").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
@@ -36,8 +37,13 @@ function showWeather(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
-}
 
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+}
 function searchCity(city) {
   let apiKey = "b40b135798f82a05aed08769f9275f50";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
