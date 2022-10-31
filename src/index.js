@@ -19,6 +19,7 @@ function formattedDate(real) {
     "Friday",
     "Saturday",
   ];
+
   return `${days[day]} ${hour}:${minute}`;
 }
 let currentTime = document.querySelector("#real-time");

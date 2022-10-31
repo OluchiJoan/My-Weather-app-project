@@ -29,7 +29,7 @@
       <div class="weather-app">
         <form class="search-form" id="search-form">
           <div class="row">
-            <div class="col-5">
+            <div class="col-7">
               <input
                 type="search"
                 placeholder="Type a city.."
@@ -39,95 +39,59 @@
                 class="form-control shadow-sm"
               />
             </div>
-            <div class="col-3">
+            <div class="col-4">
               <input
                 type="submit"
                 value="Search"
                 class="form-control btn btn-primary shadow-sm"/>
               </div>
+              <div class="row">
               <div class="col-3">
                 <button
-                  class="btn btn-success w-100"
+                  class="btn btn-secondary w-100"
                   id="current-location-button"
                 >
-                <i class="fa-solid fa-magnifying-glass-location"></i> Here
+                <i class="fa-solid fa-magnifying-glass-location"></i>Here
                 </button>
+              </div>
+          </div>
           </div>
         </form>
             
       <div class="row">
-         <div class="col-6">
+         <div class="col-7">
            <ul class="weather-description">
        <li id="country"></li>
-         <li id = "real-time"></li> 
+      <li id = "real-time"></li> 
          <li id="description"></li>
 
     <li class="d-flex weather-temperature">
     <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png" class="float-right"
     id="icon"/>
       <span class="temperature" id="temperature"></span>
-      <span class="units">
-        <a href="#" id="celsius-link" >°C</a> |
-        <a href="#" id="farenheit-link" >°F</a>
+      <span  id="celsius-link">
+        °C
       </span>
         </li> 
   </ul>
          </div>
-         <div class="col-6">
+         <div class="col-5">
            <ul class ="weather-condition">
-                  <li>Humidity: <span id="humidity"></span>%</li>
-                  <li>Wind: <span id="wind"></span> km/h</li>
+                  <li> <strong>Humidity:</strong> <span id="humidity"></span>%</li>
+                  <li><strong>Wind:</strong> <span id="wind"></span>m/h</li>
             <ul>
          </div>
-      
+      </div>
+     </div>
     </div>
-       <div class="row">
-        <div class="col-2">
-          SUN
-        </br>🌦️
-      </br>19°C
-            </div>
-    
-          <div class="col-2">
-        MON
-          </br>🌦️
-        </br>20°C
-          </div>
-          <div class="col-2">
-            TUE
-          </br>⛅
-        </br>23°C
-        </div>
-
-        <div class="col-2">
-            WED
-        </br>⛈️
-        </br>18°C
-        </div>
-
-        <div class="col-2">
-            THUR
-          </br>⛅
-        </br>25°C
-        </div> 
-
-        <div class="col-2">
-            FRI
-          </br>🌤️
-        </br>26°C
-        </div>
-          </div>
-         </div>
-         </div>
-
-         <p>
+     <p>
           <small>
           <div id="repo">
-          <a href="https://github.com/OluchiJoan/My-Weather-app-project">Open source code</a> by Oluchi Joan Ukaigwe👩🏾‍💻
+          <a href="https://github.com/OluchiJoan/My-Weather-app-project">Open source code</a> by Oluchi Joan Ukaigwe👩🏾‍💻 and is hosted on Netlify
           </div>
          </small>
          </p>
-          </div>
+
     <script src="src/index.js"></script>
   </body> 
 </html>
