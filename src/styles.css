@@ -32,7 +32,7 @@ h2 {
   font-size: 25px;
   position: relative;
   top: 25px;
-  right: 110px;
+  right: 10px;
 }
 
 #temperature {
@@ -78,7 +78,7 @@ h2 {
 #repo {
   position: relative;
   top: -7px;
-  left: 2px;
+  left: 7px;
   font-size: 18px;
 }
 #icon {
