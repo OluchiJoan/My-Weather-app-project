@@ -4,7 +4,7 @@
   max-width: 96%;
   border-radius: 5px;
   margin-top: 65px;
-  margin-left: 32px;
+  margin-left: 3px;
   display: block;
   box-shadow: #917644;
   background: radial-gradient(
@@ -78,7 +78,7 @@ h2 {
 #repo {
   position: relative;
   top: -7px;
-  left: 160px;
+  left: 2px;
   font-size: 18px;
 }
 #icon {
