@@ -1,7 +1,7 @@
 .weather-app {
   border: 1px solid #132743;
   padding: 35px 10px;
-  max-width: 60%;
+  max-width: 80%;
   border-radius: 5px;
   margin-top: 65px;
   margin-left: 32px;
@@ -91,4 +91,11 @@ h2 {
 #current-location-button {
   margin-top: 15px;
   margin-left: 10px;
+}
+.weather-forecast-date {
+  margin-left: 5px;
+  font-weight: bold;
+}
+weather-forecast {
+  margin-left: 2px;
 }
