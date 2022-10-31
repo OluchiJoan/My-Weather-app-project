@@ -29,10 +29,10 @@ h2 {
 }
 .weather-condition {
   list-style: none;
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
   top: 25px;
-  right: 15px;
+  right: 20px;
 }
 
 #temperature {
