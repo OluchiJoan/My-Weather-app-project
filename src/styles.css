@@ -29,7 +29,7 @@ h2 {
 }
 .weather-condition {
   list-style: none;
-  font-size: 20px;
+  font-size: 16px;
   position: relative;
   top: 25px;
   right: 20px;
@@ -78,7 +78,7 @@ h2 {
 #repo {
   position: relative;
   top: -7px;
-  left: 7px;
+  left: 10px;
   font-size: 18px;
 }
 #icon {
