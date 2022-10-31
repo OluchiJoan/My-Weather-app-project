@@ -3,7 +3,7 @@
   padding: 35px 10px;
   max-width: 96%;
   border-radius: 5px;
-  margin-top: 65px;
+  margin-top: 75px;
   margin-left: 3px;
   display: block;
   box-shadow: #917644;
@@ -32,7 +32,7 @@ h2 {
   font-size: 16px;
   position: relative;
   top: 25px;
-  right: 20px;
+  right: 15px;
 }
 
 #temperature {
@@ -78,7 +78,7 @@ h2 {
 #repo {
   position: relative;
   top: -7px;
-  left: 10px;
+  left: 14px;
   font-size: 18px;
 }
 #icon {
@@ -90,7 +90,7 @@ h2 {
 
 #current-location-button {
   margin-top: 15px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .weather-forecast-date {
   margin-left: 5px;
