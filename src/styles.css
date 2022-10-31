@@ -26,13 +26,14 @@ h2 {
   font-size: 18px;
   font-weight: light;
   list-style: none;
+  left: -30px;
 }
 .weather-condition {
   list-style: none;
   font-size: 16px;
   position: relative;
   top: 25px;
-  right: 15px;
+  right: 10px;
 }
 
 #temperature {
@@ -78,7 +79,7 @@ h2 {
 #repo {
   position: relative;
   top: -7px;
-  left: 14px;
+  left: 16px;
   font-size: 18px;
 }
 #icon {
