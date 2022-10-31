@@ -26,11 +26,11 @@ h2 {
   font-size: 18px;
   font-weight: light;
   list-style: none;
-  left: -30px;
+  padding: 1%;
 }
 .weather-condition {
   list-style: none;
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   top: 25px;
   right: 10px;
