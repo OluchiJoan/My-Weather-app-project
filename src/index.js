@@ -37,7 +37,7 @@ function displayForecast(response) {
   let weatherForecastHTML = `<div class ="row">`;
 
   forecast.forEach(function (forecastDay, index) {
-    if (index < 4) {
+    if (index < 5) {
       weatherForecastHTML =
         weatherForecastHTML +
         `<div class="col-2">
@@ -68,7 +68,7 @@ currentTime.innerHTML = formattedDate();
 function getForecast(coordinates) {
   console.log(coordinates);
   let apiKey = "b40b135798f82a05aed08769f9275f50";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayForecast);
 }
 

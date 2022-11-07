@@ -1,16 +1,13 @@
 .weather-app {
   border: 2px solid #132743;
-  padding: 35px 10px;
+  padding: 35px;
+  padding-left: 14px;
   max-width: 96%;
   border-radius: 5px;
   margin-top: 75px;
   display: block;
   box-shadow: #917644;
-  background: radial-gradient(
-    1093px at -13.5% -13.6%,
-    rgb(254, 192, 193) 6.2%,
-    rgb(0, 67, 105) 98.8%
-  );
+  background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 .container {
   margin-left: 15px;
@@ -42,7 +39,7 @@ h2 {
   font-size: 40px;
   position: relative;
   top: 25px;
-  right: 35px;
+  right: 33px;
   padding-left: 2px;
 }
 
@@ -76,7 +73,7 @@ h2 {
 #icon {
   position: relative;
   top: 4px;
-  right: 23px;
+  right: 20px;
   font-size: 15px;
 }
 
@@ -88,6 +85,10 @@ h2 {
   margin-left: 5px;
   font-weight: bold;
 }
-weather-forecast {
-  margin-left: 2px;
+.col-2 {
+  margin-left: 10px;
+  font-size: medium;
+  padding: 4px;
+  border: 1px solid #132743;
+  border-radius: 7px;
 }
