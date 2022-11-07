@@ -88,5 +88,6 @@ h2 {
 .col-3 {
   margin-left: 10px;
   font-size: medium;
-  padding: 4px;
+  border: 1px solid #132743;
+  margin-top: 5px;
 }
