@@ -1,10 +1,9 @@
 .weather-app {
-  border: 1px solid #132743;
+  border: 2px solid #132743;
   padding: 35px 10px;
   max-width: 96%;
   border-radius: 5px;
   margin-top: 75px;
-  margin-left: 3px;
   display: block;
   box-shadow: #917644;
   background: radial-gradient(
@@ -12,6 +11,9 @@
     rgb(254, 192, 193) 6.2%,
     rgb(0, 67, 105) 98.8%
   );
+}
+.container {
+  margin-left: 15px;
 }
 h2 {
   color: #5a6275;
@@ -41,6 +43,7 @@ h2 {
   position: relative;
   top: 25px;
   right: 35px;
+  padding-left: 2px;
 }
 
 #country {
@@ -63,23 +66,11 @@ h2 {
 .col-6:hover {
   color: rgb(207, 217, 235);
 }
-.col-2:hover {
-  color: rgb(207, 217, 235);
-}
-.col-2 {
-  border: 1px solid #132743;
-  border-radius: 7px;
-  font-family: "PT Mono", monospace;
-  padding: 1px 5px;
-  margin-top: 8px;
-  margin-bottom: auto;
-  transition: all 200ms ease-in-out;
-  font-weight: bold;
-}
+
 #repo {
   position: relative;
   top: -7px;
-  left: 16px;
+  left: 25px;
   font-size: 18px;
 }
 #icon {
